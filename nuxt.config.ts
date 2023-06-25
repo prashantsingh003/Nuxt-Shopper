@@ -14,5 +14,14 @@ export default defineNuxtConfig({
         {rel:'stylesheet',href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
       ]
     }
+  },
+  runtimeConfig:{
+    // Key available in server only
+    currencyKey:process.env.CURRENCY_API_KEY,
+    
+    // KEY available in frontend/Browser
+    public:{
+      currencyKey:process.env.CURRENCY_API_KEY
+    }
   }
 })
