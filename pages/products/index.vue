@@ -15,7 +15,13 @@
     })
 
     // Fetch products
-    const {data:products} = await useFetch('https://fakestoreapi.com/products')
+    const {data:products} = await useFetch('https://fakestoreapi.com/products');
+    useHead({
+        title:'Nuxt Shopper | Merch',
+        meta:[
+            { name:'description',content:'Nuxt Shopper Merch' }
+        ]
+    })
 </script>
 
 <style lang="scss" scoped>

@@ -3,5 +3,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  app:{
+    head:{
+      title:'Nuxt Shopper',
+      meta:[
+        {name:'description', content:'Sample Nuxt 3 practice project'}
+      ],
+      link:[
+        {rel:'stylesheet',href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
+      ]
+    }
+  }
 })
