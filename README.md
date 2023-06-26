@@ -60,6 +60,6 @@ pnpm run preview
 yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [Project Live Url](https://nuxt-shopper.netlify.app/) for Preview.
 # Nuxt-Shopper
 Nuxt 3 Demo Practice Project
