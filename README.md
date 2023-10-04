@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# [Nuxt Shopper](https://nuxt-shopper.netlify.app/)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Refrences: [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction).
 
 ## Setup
 
@@ -17,10 +17,6 @@ pnpm install
 yarn install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 ```bash
 # npm
 npm run dev
@@ -31,35 +27,6 @@ pnpm run dev
 # yarn
 yarn dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
 Check out the [Project Live Url](https://nuxt-shopper.netlify.app/) for Preview.
 # Nuxt-Shopper
 Nuxt 3 Demo Practice Project
